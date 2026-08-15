@@ -7,9 +7,7 @@
 
 <style>
 body {
-    margin: 0;
-    font-family: Georgia, serif;
-    background: #0b110e;
+background: #151020;
     color: #e8eee9;
     text-align: center;
 }
@@ -68,7 +66,7 @@ footer {
 
 <header>
     <h1>Mystery of Nature</h1>
-    <p>Find me where the forest hides its secrets...</p>
+    <p>Find me in the silence of the forest...</p>
 </header>
 
 <section>
