@@ -3,61 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Mystery of Nature</title>
 
 <style>
 body {
-background: #151020;
-    color: #e8eee9;
+    margin: 0;
+    font-family: Georgia, serif;
+    background: #0b110e;
+    color: white;
     text-align: center;
 }
 
 header {
-    padding: 100px 20px;
-    background: linear-gradient(#07100bcc, #07100bcc),
-    url("https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1600&q=80");
-    background-size: cover;
-    background-position: center;
+    padding: 80px 20px;
 }
 
 h1 {
-    font-size: 55px;
-    letter-spacing: 4px;
-    margin-bottom: 15px;
+    font-size: 50px;
 }
 
-header p {
-    font-size: 20px;
-    color: #c6d5c9;
-}
-
-section {
-    padding: 60px 20px;
-    max-width: 900px;
-    margin: auto;
-}
-
-h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
+.intro {
+    color: #b8c8bd;
+    font-size: 18px;
 }
 
 .gallery {
     display: flex;
     justify-content: center;
+    padding: 40px 20px;
 }
 
-.gallery img {
-    width: 300px;
-    max-width: 90%;
+.nft {
+    background: #151d18;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 350px;
+}
+
+.nft img {
+    width: 100%;
     border-radius: 15px;
-    box-shadow: 0 10px 30px #000;
 }
 
-footer {
-    padding: 30px;
-    background: #050806;
-    color: #8d9b91;
+.nft h2 {
+    margin-top: 20px;
+}
+
+.price {
+    color: #9fc9a9;
+    font-size: 20px;
+}
+
+button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
 }
 </style>
 </head>
@@ -66,30 +71,35 @@ footer {
 
 <header>
     <h1>Mystery of Nature</h1>
-    <p>Find me in the silence of the forest...</p>
+
+    <p class="intro">
+        Discover mysterious digital artworks inspired by nature.
+    </p>
 </header>
 
-<section>
-    <h2>Welcome</h2>
-    <p>
-        Welcome to my mysterious world.
-        Here I create digital art inspired by nature,
-        hidden stories and the unknown.
-    </p>
-</section>
+<section class="gallery">
 
-<section>
-    <h2>My Artwork</h2>
+    <div class="nft">
 
-    <div class="gallery">
-        <img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=800&q=80"
-        alt="Mysterious forest">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=800&q=80">
+
+        <h2>Whisper of the Forest</h2>
+
+        <p>
+            A mysterious artwork inspired by the hidden secrets of nature.
+        </p>
+
+        <p class="price">
+            0.05 ETH
+        </p>
+
+        <button>
+            View NFT
+        </button>
+
     </div>
-</section>
 
-<footer>
-    © 2026 Mystery of Nature
-</footer>
+</section>
 
 </body>
 </html>
